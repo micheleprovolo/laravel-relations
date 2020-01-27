@@ -9,6 +9,6 @@ use App\Tag;
 $factory->define(Tag::class, function (Faker $faker) {
     return [
         'title' => $faker -> word,
-        'description' => $faker -> sentence
+        'slug' => $faker -> sentence
     ];
 });
